@@ -1,3 +1,4 @@
+import 'package:beerom/generated/l10n.dart';
 import 'package:beerom/pages/recipe.dart';
 import 'package:flutter/material.dart';
 
@@ -54,7 +55,7 @@ class _RecipeItemState extends State<RecipeItem> {
         // ),
         title: Text("List Item ${widget.idx}"),
         subtitle: Text(
-          "Little description",
+          "${S.of(context).beerTagline} : Something",
           maxLines: 1,
         ),
         onTap: () {

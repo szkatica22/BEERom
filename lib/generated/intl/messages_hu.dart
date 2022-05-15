@@ -44,9 +44,9 @@ class MessageLookup extends MessageLookupByLibrary {
         "beerMaltAmount": MessageLookupByLibrary.simpleMessage("Mennyiség"),
         "beerMaltName": MessageLookupByLibrary.simpleMessage("Név"),
         "beerMashDuration":
-            MessageLookupByLibrary.simpleMessage("Pépesítés időtartama"),
+            MessageLookupByLibrary.simpleMessage("Cefrézés időtartama"),
         "beerMashTemp":
-            MessageLookupByLibrary.simpleMessage("Pépesítés hőmérséklete"),
+            MessageLookupByLibrary.simpleMessage("Cefrézés hőmérséklete"),
         "beerMethod": MessageLookupByLibrary.simpleMessage("Elkészítés"),
         "beerName": MessageLookupByLibrary.simpleMessage("Név"),
         "beerTagline": MessageLookupByLibrary.simpleMessage("Címke"),
