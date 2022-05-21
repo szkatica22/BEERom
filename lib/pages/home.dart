@@ -80,38 +80,6 @@ class _HomePageState extends State<HomePage> {
                   return RecipeItem(
                     idx: idx,
                   );
-                  // return Card(
-                  //   margin: const EdgeInsets.all(8),
-                  //   color: Colors.orange[200],
-                  //   child: Row(
-                  //     crossAxisAlignment: CrossAxisAlignment.start,
-                  //     children: <Widget>[
-                  //       Center(
-                  //         child: Padding(
-                  //           padding: const EdgeInsets.all(2),
-                  //           child: Image(
-                  //             image: NetworkImage(
-                  //                 'https://picsum.photos/250?image=9',
-                  //                 scale: 3
-                  //             ),
-                  //           ),
-                  //         ),
-                  //       ),
-                  //       Expanded(
-                  //         child: Padding(
-                  //           padding: const EdgeInsets.only(
-                  //               left: 10, right: 10, bottom: 10, top: 10),
-                  //           child: Center(
-                  //             child: Text(
-                  //               "List Item $idx",
-                  //               style: Theme.of(context).textTheme.headlineSmall,
-                  //             ),
-                  //           ),
-                  //         ),
-                  //       ),
-                  //     ],
-                  //   ),
-                  // );
                 },
               ),
             ),
